@@ -1,0 +1,20 @@
+.news-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    margin: 0 0 177px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 770px;
+    min-height: 440px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: relative;
+}
+
+.news-block:last-of-type {
+    margin: 0;
+}

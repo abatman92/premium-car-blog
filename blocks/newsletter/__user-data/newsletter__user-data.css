@@ -1,0 +1,21 @@
+.newsletter__user-data {
+    height: 50px;
+    width: 270px;
+    margin: 0 0 10px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    padding-inline-start: 15px;
+    color: #AEB3BB;
+}
+
+.newsletter__user-data:first-of-type {
+    margin-top: 27px;
+}

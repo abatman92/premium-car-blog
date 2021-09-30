@@ -1,0 +1,12 @@
+.popular-posts__post {
+    margin-block-start: 39px;
+    min-height: 299px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.popular-posts__post:first-of-type {
+    margin-block-start: 0;
+}

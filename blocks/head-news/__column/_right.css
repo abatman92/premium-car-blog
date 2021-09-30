@@ -1,0 +1,6 @@
+.head-news__column_right {
+    display: flex;
+    width: 770px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

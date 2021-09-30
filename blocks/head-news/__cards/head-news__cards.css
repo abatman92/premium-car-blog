@@ -1,0 +1,22 @@
+.head-news__cards {
+    height: 265px;
+    width: 370px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 30px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.head-news__cards:hover {
+    box-shadow: 0 0 20px #4A90E2;;
+    transition: 0.3s ease;
+}

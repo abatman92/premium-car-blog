@@ -1,0 +1,9 @@
+.social__link {
+    height: 34px;
+    width: 34px;
+    border-radius: 3px;
+    background-color: #373737;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

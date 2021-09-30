@@ -1,0 +1,6 @@
+.footer__footer-zone {
+    margin: 0 auto;
+    max-width: 1174px;
+    display: flex;
+    justify-content: space-between;
+}

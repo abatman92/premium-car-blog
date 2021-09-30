@@ -1,0 +1,23 @@
+.button {
+    height: 50px;
+    width: 270px;
+    border-radius: 5px;
+    font-family: "PT Sans";
+    font-size: 14px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #232323;
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    color: #4A90E2;
+    transition: 0.05s linear;
+}

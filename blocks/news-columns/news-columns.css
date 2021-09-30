@@ -1,0 +1,6 @@
+.news-columns {
+    max-width: 1174px;
+    display: flex;
+    margin: 45.68px auto 80px;
+    justify-content: space-between;
+}

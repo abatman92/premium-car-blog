@@ -1,0 +1,10 @@
+.footer-logo__content {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    color: #FFFFFF;
+    justify-content: center;    
+}

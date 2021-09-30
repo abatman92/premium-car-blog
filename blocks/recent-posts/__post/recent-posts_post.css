@@ -1,0 +1,10 @@
+.recent-posts_post {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin:  0 0 20px;
+}
+
+.recent-posts_post:last-child {
+    margin:0;
+}

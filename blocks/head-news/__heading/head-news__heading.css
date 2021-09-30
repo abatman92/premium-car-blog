@@ -1,0 +1,8 @@
+.head-news__heading {
+    margin: 6px 0 23px;
+}
+
+.head-news__heading:hover {
+    color: #4A90E2;
+    transition: 0.05s linear;
+}

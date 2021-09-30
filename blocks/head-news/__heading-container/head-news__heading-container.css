@@ -1,0 +1,6 @@
+.head-news__heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}

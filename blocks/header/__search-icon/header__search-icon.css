@@ -1,0 +1,12 @@
+.header__search-icon {
+    width: 16px;
+    height: 17px;
+    background-image: url(../../../images/Shape.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header__search-icon:hover {
+    background-color: #1f90E2;
+}

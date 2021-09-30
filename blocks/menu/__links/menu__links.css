@@ -1,0 +1,11 @@
+.menu__links {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    line-height: 18.12px;
+    font-size: 14px;
+}
+
+.menu__links:hover {
+    color: #4A90E2;
+}

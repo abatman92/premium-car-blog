@@ -1,0 +1,14 @@
+.popular-posts__illustration {
+    padding: 20px 0 0 20px;
+    height: 195px;
+    width: 270px;
+    top: 46px;
+    border-radius: 5px;
+    margin: 0 0 20px;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-start;
+}

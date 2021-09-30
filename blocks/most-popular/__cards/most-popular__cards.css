@@ -1,0 +1,7 @@
+.most-popular__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 270px;
+}

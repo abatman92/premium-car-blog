@@ -1,0 +1,13 @@
+.news-subline {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18.12px;
+    margin: 0;
+    padding: 0;
+}
+
+.news-subline:hover {
+    transition: 0.05s linear;
+    color: grey;
+}

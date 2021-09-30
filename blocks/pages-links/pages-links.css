@@ -1,0 +1,7 @@
+.pages-links {
+    margin: 200px 0 0;
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
