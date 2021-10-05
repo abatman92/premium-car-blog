@@ -2,7 +2,7 @@
     <html lang="en">
         <head> 
             <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="viewport" content="device-width">
             <title>Premium Car Blog</title>
             <link rel="stylesheet" href="pages/index.css">
         </head>
@@ -122,7 +122,7 @@
                             <h3 class="author__name">Leon Hunt</h3>
                             <p class="news-subline news-subline_place_columns">Food & cooking bloger</p>
                             <p class="author__text">Hi, I'm Leon. Cooking is the way I express my creative side to the world. Welcome to my Kitchen Corner on…</p>
-                            <form><button class="button">Continue reading</button></form>
+                            <a class="button">Continue reading</a>
                         </div>
                         <div class="popular-posts">
                             <h2 class="popular-posts__section-title">Popular posts</h2>
@@ -183,11 +183,13 @@
                             </ul>
                         </div>
                         <div class="newsletter">
-                            <h2 class="newsletter__section-title">Email newsletter</h2>
-                            <p class="newsletter__description">Sign up to receive email updates and to hear what's going on.</p>
-                            <form class="newsletter__user-data">Your name</form>
-                            <form class="newsletter__user-data">Your email adress</form>
-                            <button class="button">Subscribe to newsletter</button>
+                            <form>
+                                <h2 class="newsletter__section-title">Newsletter</h2>
+                                <p class="newsletter__description">Sign up to receive email updates and to hear what's going on.</p>
+                                <input  class="newsletter__user-data" type="text" placeholder="Your name" name="Name">
+                                <form><input  class="newsletter__user-data" type="email" placeholder="Your email adress" name="E-mail">
+                                <button class="button" type="submit">Subscribe to newsletter</button>
+                            </form>
                         </div>
                     </div>
                 </section>
@@ -268,10 +270,12 @@
                             </div>
                         </div>
                         <div class="newsletter">
-                            <h2 class="newsletter__section-title newsletter__section-title_theme_dark">Newsletter</h2>
-                            <form class="newsletter__user-data newsletter__user-data_theme_dark">Your name</form>
-                            <form class="newsletter__user-data newsletter__user-data_theme_dark">Your email adress</form>
-                            <button class="button">Subscribe to newsletter</button>
+                            <form>
+                                <h2 class="newsletter__section-title newsletter__section-title_theme_dark">Newsletter</h2>
+                                <input  class="newsletter__user-data newsletter__user-data_theme_dark" type="text" placeholder="Your name" name="name">
+                                <form><input  class="newsletter__user-data newsletter__user-data_theme_dark" type="email" placeholder="Your email adress" name="E-mail">
+                                <button class="button" type="submit">Subscribe to newsletter</button>
+                            </form>
                         </div>
                     </div>
                 </section>
